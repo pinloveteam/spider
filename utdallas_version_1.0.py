@@ -87,8 +87,12 @@ for topic_address_idx in topic_addresses:
         print(leng(emails))
 
 email_file = open("emails.txt", "w", encoding="utf-8")
-email_file = write(emails)
+email_file。write(emails)
 email_file.close()
+
+#f = open("dump.txt", "w", encoding="utf-8")
+#f.write(web_page)
+#f.close()
 
 
 
