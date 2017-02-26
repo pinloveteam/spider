@@ -84,10 +84,10 @@ for topic_address_idx in topic_addresses:
             emails.update(email_from_one_page)
             # print(emails)
         
-        print(leng(emails))
+        print(len(emails))
 
 email_file = open("emails.txt", "w", encoding="utf-8")
-email_file。write(emails)
+email_file.write(' \n'.join(emails))
 email_file.close()
 
 #f = open("dump.txt", "w", encoding="utf-8")
